@@ -1,0 +1,191 @@
+/* Reset default margin and padding for all elements */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Font settings */
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6c757d;
+}
+
+/* Navbar specific styles */
+.navbar .r-nav {
+    background: transparent !important; /* Ensure navbar background is transparent */
+    padding: 20px 0;
+    transition: all 0.5s;
+}
+
+/* Navbar brand */
+.navbar .navbar-brand {
+    color: #fff !important; /* Set brand color to white */
+    font-size: 28px;
+    transition: all 0.5s;
+}
+
+/* Navbar links */
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #fff !important; /* Set link color to white */
+    margin-left: 20px;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    font-size: 18.5px !important; 
+    color: rgb(178, 118, 44) !important;
+    transition: all 0.2s;
+
+}
+@media (max-width: 767px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+        margin-left: 0;
+    }
+}
+
+nav.r-nav.stickyadd {
+    background-color: #fff !important;
+    padding: 15px 0;
+    box-shadow: 0 1px 8px 3px rgba(0,0,0,0.05);
+    transition: all 0.5s ease-in-out;
+}
+nav.stickyadd .navbar-brand {
+    color: #000 !important;
+    transition: all 0.5s ease-in-out;
+}
+nav.stickyadd .navbar-nav .nav-item .nav-link {
+    color: #000 !important;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.navbar .burger {
+    color: #fff !important;
+}
+.navbar.stickyadd .burger {
+    color: #000 !important;
+}
+
+/* header section */
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-box{
+    max-width: 700px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+.content-box h4{
+    font-size: 30px;
+}
+.content-box h1{
+    font-size: 60px;
+}
+.content-box a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 24px;
+}
+.content-box a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: all .5s;
+}
+.content-box p{
+    margin-top: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* about me */
+.about ul a{
+    color: #000;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    border: 2px solid #d4d4d4;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: all .5s;
+}
+.about ul a:hover{
+    color: rgb(178, 118, 44);
+    transition: all .5s;
+}
+
+.r-p{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.bg-proj{
+    background: #F8F9FA;
+}
+
+.card-btn{
+    border-radius: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+}
+.card-btn:hover{
+    background-color: rgb(178, 118, 44);
+    color: #fff;
+    font-size: 14.5px;
+    transition: all .5s;
+}
+.card, .card-header{
+    background: #F8F9FA !important;
+    border: none;
+}
+
+/* footer section */
+footer{
+    height: 200px;
+    background: #333333;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .r-icons a{
+    font-size: 20px;
+    padding: 10px;
+    /* border: 1px solid #848484; */
+    /* border-radius: 50%; */
+    color: #848484;
+}
+
+footer .r-icons a:hover{
+    /* color: rgb(178, 118, 44); */
+    color: #fff;
+    transition: all .5s;
+}
+.p-right{
+    margin-top: 20px ;
+    color: #848484 !important;
+    margin-bottom: 20px;
+}
